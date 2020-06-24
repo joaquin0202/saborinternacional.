@@ -1,0 +1,497 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 jun. 2020, 16:35:43
+    Author     : joaqu
+*/
+
+body p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    
+}
+
+#logo{
+    position: absolute;
+    left: 88px;
+    margin-top: -10px
+}
+#redes{
+    position: absolute;
+    right: 88px;
+    margin-top: -10px
+}
+h1
+{
+    font-family: 'Anton', sans-serif;
+    color:white;
+    font-size: 67px;
+    text-align: center
+}
+h2
+{
+    font-family: 'Architects Daughter', cursive;
+    color:#FFA900;
+    font-size: 19px;
+    text-align: center
+}
+nav {
+    font-family: 'Anton', sans-serif;
+    margin: 35px 0px 30px 0px;
+    font-size: 15px;
+    
+}
+nav ul li{
+    margin-right:  7%;    
+}
+nav img{
+    width: 10%
+}
+
+nav a:hover{
+    color: #DE1E22;
+    border-bottom: 2px solid;      
+}
+.nav-link{
+    color:black;
+     padding: 0px;
+}
+#modal{
+    background-color: rgba(0,0,0,.7);
+  position:fixed;
+  top:-100vh;
+  right:0;
+  bottom:0;
+  left:0;  
+  z-index: 200;
+  text-align: center;
+  height: 100vh
+ 
+}
+
+#modalContenido{
+    height: 50vh;
+    width: 50vw;
+  
+  background-color: white;
+  padding: 5px 10px;
+  margin: 10% auto;
+  position: relative;
+  border-radius: 8px
+  
+}
+#imagenFondo{
+    height: 55%;
+    width: 100%;
+    background-image:url(img/sushi-2112350_1920.jpg);
+    background-size: 100%
+}
+#modal h1{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    margin-top: 5%;
+     font-family: 'Roboto Slab', serif;
+}
+#modal h3{
+    padding: 0;
+    margin: 0;;
+    font-size: 15px
+}
+#modal a{
+    font-family: 'Architects Daughter', cursive;
+    color:#FFA900;
+    font-size: 19px;
+}
+#novedades{
+     margin-bottom: 67px;  
+}
+ #slides{
+    height: 80vh;
+    filter:brightness(0.6);
+}
+
+#textoSlider h1{
+  margin-bottom: 30px
+}
+
+#textoSlider{
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    width: 100vw;
+    top: 18%
+}
+
+#textoSlider h2{
+    padding-top: 100px
+}
+#textoSlider a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    color: white;
+    padding: 12px 40px 12px 40px;
+    background-color: #FFA900;;
+    border-radius: 6px;
+    text-decoration: none;
+}
+#rojo{
+    height: 95px;
+    width: 100%;
+    background-color: #DE1E22;
+    position: absolute;
+    margin-top: -17px
+}
+#rojo p{
+     font-family: 'Architects Daughter', cursive;
+     font-size: 18px;
+     color: white;
+     margin: 17px 20px;   
+     
+}
+#paises{
+    text-align: center
+}
+#paises .container{
+    margin-bottom: 80px;
+}
+#paises .col-lg-4{
+    margin-top: 20px
+}
+#paisesRandom div a{
+    width: 294px;
+    height: 203px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 53px;
+    font-family: 'Bebas Neue', cursive;
+    color:white;
+    font-size: 35px;
+    text-decoration: none;
+     filter:brightness(0.5);
+    
+    background-size: 110%;
+}
+
+.aJapón{
+    background-image: url(img/sushi-2112350_1920.jpg)
+}
+.aMéxico{
+    background-image: url(img/mejico.jpg)
+}
+.aChina{
+    background-image: url(img/ArrozTresDelicias2.jpg)
+}
+.aItalia{
+    background-image: url(img/close-up-1854245_1920.jpg)
+}
+.aUruguay{
+    background-image: url(img/parrilla.jpg)
+}
+
+#paisesRandom div a:hover{
+    filter:brightness(0.9);
+    transition: 0.7s;
+    
+}
+   
+#vermas{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    color: white;
+    padding: 12px 55px 12px 55px;
+    background-color: #DE1E22;
+    border-radius: 6px;
+  
+    text-decoration: none;
+}
+
+footer{
+    height: 140px;
+    background-color: black;
+    margin-top: 90px;
+    padding-top: 30px;
+    text-align: center
+  
+}
+
+footer a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    color: white;
+   
+    
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:white
+}
+
+/*------------------------CATÁLOGO--------------------*/
+
+#titulo{
+    height: 300px;
+    width: 100%;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(img/pasta-1181189.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+#titulo h1{
+    padding-top: 100px
+}
+#catalogo h2{
+    font-size: 24px;
+    margin-top: 82px;
+}
+#catalogo h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color:black;
+    font-size: 64px;
+    opacity: 0.7;
+    margin-top: -5px
+}
+#busqueda {
+    text-align: center;
+    margin-bottom: 77px;
+}
+#busqueda input{
+    width: 260px;
+    height: 31px;
+    border: 2px solid #FFA900;
+    border-radius: 6px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    padding: 6px ;
+    margin-top: 10px;
+}
+
+#filtros{
+    text-align: center;
+    margin-bottom: -40px;
+ 
+}
+
+ #filtros select{
+    width: 129px;
+    height: 37px;
+    border: 2px solid #FFA900;
+    border-radius: 6px;
+    background-color: #FFA900;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    
+}
+#filtros img{
+    margin-bottom: 25px;
+    height: 86px
+}
+
+
+#recetas .col-lg-4{
+    margin-top: 160px
+}
+#recetas a{
+  position: absolute;
+  padding: 0;
+  width: 160px;
+  height: 154px;
+  z-index: 1000
+}
+#recetas img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%
+}
+#ss p{
+   font-family: 'Architects Daughter', cursive;
+   color: #DE1E22;
+   font-size: 18px;
+    padding-left: 185px;
+    transform: rotate(5deg);
+    
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 19px;
+    padding-left: 185px;
+    padding-bottom: 7px
+}
+h4{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 185px;
+    font-size: 12px;
+}
+#recetas .row{
+    margin-bottom: 165px
+}
+#recetas a:hover{
+   filter:brightness(0.8);
+   transition: 0.7s;
+   transform: rotate(2deg)
+}
+
+/*------------------------AMPLIACIÓN--------------------*/
+
+#ampliacion{
+    
+}
+#ampliacion h1{
+    color: black;
+    font-size: 53px;
+    margin-top: -15px
+}
+#ampliacion h2{
+  
+    font-size: 40px;
+}
+
+#ampliacion img{
+    width: 100%;
+}
+#titulo2{
+    text-align: center;
+    margin-top: 110px;
+    
+    
+}
+
+#titulo2 p{
+    width: 60%;
+    display: inline-block
+   
+}
+
+#infoReceta{
+    margin-top: 70px;
+}
+
+
+#infoReceta h2{
+    text-align: left;
+    color: #DE1E22;
+    font-size: 35px;
+    
+    
+}
+.col-md-5 ul{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    list-style: none; 
+    border-bottom: 1px solid black;
+    padding:0 0 5px ;
+}
+.col-md-5 h2{
+    margin: 50px 0px 30px;
+}
+.col-md-7 h2{
+    margin: 40px 0px 10px;
+}
+.col-md-7 ul{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    list-style: none; 
+    padding: 0;
+    width: 90%
+}
+h5 {
+     font-family: 'Architects Daughter', cursive;
+     font-size: 27px;
+     position: absolute;
+     color: #FFA900;
+     margin-top: 10px
+}
+
+#infoReceta select{
+    float: left;
+    margin:10px 150px;
+        width: 129px;
+    height: 37px;
+    border: 2px solid #FFA900;
+    border-radius: 6px;
+    background-color: #FFA900;
+    color: white
+}
+
+#comentarios {
+ 
+  
+}
+
+#comentarios h2{
+    color:black;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+#listaComentarios {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-size: 12px;
+      margin-top: 60px;
+      width: 80%;
+}
+#comentarios li{
+     list-style: none; 
+    border-bottom: 1px solid grey;
+    padding:20px 0 5px ;
+    
+}
+#comentar{
+    width: 80%;
+    position: absolute
+}
+
+#btn_comentar{
+    float: right;
+    position: relative
+}
+/*------------------------CONTACTO--------------------*/
+
+#tituloContacto{
+    height: 300px;
+    width: 100%;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(img/kitchen-515388.jpg);
+    background-size: 100%;
+  
+   
+    margin-bottom: 7%
+}
+#tituloContacto h1{
+    padding-top: 100px
+}
+
+#formulario{
+    margin-bottom: 13%;
+    font-family: 'Roboto Slab', serif;
+ 
+}
+#formulario label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px
+}
+#comentario {
+    height: 200px ;
+   
+    
+}
+
+form button{
+    background-color: #FFA900 !important;
+    color:white;
+}
+
+form p{
+    text-align: right;
+    color: #DE1E22;
+    font-style: italic;
+}
